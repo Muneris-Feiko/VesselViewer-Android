@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.feikol.bardemo.app.MainActivity" >
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_reconnect"
+        android:title="Reconnect"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        app:showAsAction="never" />
+</menu>
